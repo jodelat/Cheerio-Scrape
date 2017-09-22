@@ -1,0 +1,146 @@
+body {
+
+  background-image: url("../img/background.jpg");
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: black;
+	}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: red;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: red;
+    background-color: transparent;
+}
+
+.jumbotron {
+	background-color: grey;
+	color: white;
+	opacity: .92;
+}
+
+p {
+	color: black;
+}
+
+.panel-default>.panel-heading {
+    color: black;
+    background-color: #f5f5f5;
+    border-color: #dddddd;
+}
+
+.btn-success {
+    color: #ffffff;
+    background-color: #FE4C4C;
+    border-color: #FE4C4C;
+}
+
+.btn-success:hover {
+    color: #ffffff;
+    background-color: #E91919;
+    border-color: #E91919;
+}
+
+.btn-success:focus {
+    color: #ffffff;
+    background-color: #E91919;
+    border-color: #E91919;
+}
+
+.btn.btn-block.btn-success:hover {
+	color: #ffffff;
+    background-color: #E91919;
+    border-color: #E91919;
+}
+
+.btn {
+    font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/*Saved Articles Page*/
+.btn-primary {
+    color: #ffffff;
+    background-color: #FE4C4C;
+    border-color: #FE4C4C;
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #E91919;
+    border-color: #E91919;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    color: #ffffff;
+    background-color: #E91919;
+    border-color: #E91919;
+}
+
+.btn-primary:active:focus {
+  color: #ffffff;
+  background-color: #E91919;
+  border-color: #E91919;
+}
+
+/*Add a Note*/
+.btn-warning {
+    color: #ffffff;
+    background-color: grey;
+    border-color: grey;
+}
+
+.btn-warning:hover {
+    color: #ffffff;
+    background-color: #b3b3b3;
+    border-color: #b3b3b3;
+}
+
+.btn-warning:focus, .btn-warning.focus {
+    color: #ffffff;
+    background-color: #b3b3b3;
+    border-color: #b3b3b3;
+}
+
+.btn-warning:active:focus {
+  color: #ffffff;
+  background-color: #b3b3b3;
+  border-color: #b3b3b3;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+}
+#notes {
+  float: right;
+  width: 30%;
+}
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: #FCF5C7;
+}
+input {
+  height: 36px;
+  font-size: 24px;
+}
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
