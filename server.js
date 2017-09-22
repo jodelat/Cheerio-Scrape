@@ -30,7 +30,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 
-mongoose.connect("mongodb://heroku_jpzxbq4p:t540oofdmtu9kl27h0ih1u8qtb@ds147044.mlab.com:47044/heroku_jpzxbq4p");
+mongoose.connect("mongodb://localhost/nytimesScrape");
 var db = mongoose.connection;
 
 
